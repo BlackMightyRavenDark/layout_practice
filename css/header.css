@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.button1 {
+    padding: 8px;
+    background-color: #EF7F04;
+    color: #ffffff;
+}
+
+.button2 {
+    padding: 8px;
+    background-color: #3B3A63;
+    color: #ffffff;
+}
