@@ -13,17 +13,29 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 14px;
 }
 
 .button1 {
-    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 8px 19px 8px 14px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
     background-color: #EF7F04;
     color: #ffffff;
 }
 
 .button2 {
-    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 8px 20px 8px 14px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
     background-color: #3B3A63;
     color: #ffffff;
 }
