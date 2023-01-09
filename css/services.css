@@ -62,3 +62,26 @@
     width: 290px;
     height: 80px;
 }
+
+/*Остекление коттеджей и дач*/
+.title3-image {
+    position: absolute;
+    left: 48px;
+    top: 47px;
+}
+
+.service3-title {
+    position: absolute;
+    left: 138px;
+    top: 55px;
+    width: 192px;
+    font-size: 24px;
+}
+
+.service3-descr {
+    position: absolute;
+    left: 53px;
+    top: 148px;
+    width: 222px;
+    height: 80px;
+}
