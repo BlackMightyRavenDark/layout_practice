@@ -85,3 +85,26 @@
     width: 222px;
     height: 80px;
 }
+
+/*Остекление корпоративных объектов*/
+.title4-image {
+    position: absolute;
+    left: 53px;
+    top: 46px;
+}
+
+.service4-title {
+    position: absolute;
+    left: 146px;
+    top: 59px;
+    width: 299px;
+    font-size: 24px;
+}
+
+.service4-descr {
+    position: absolute;
+    left: 51px;
+    top: 149px;
+    width: 300px;
+    height: 80px;
+}
