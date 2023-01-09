@@ -4,9 +4,10 @@
 
 .our-services {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
 }
 
 h3 {
