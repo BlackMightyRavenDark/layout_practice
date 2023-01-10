@@ -2,6 +2,7 @@
     position: relative;
     width: 595px;
     height: 268px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .tint {
@@ -30,13 +31,14 @@
     top: 66px;
     width: 211px;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .service1-descr {
     position: absolute;
     left: 52px;
     top: 160px;
-    width: 262px;
+    width: 303px;
     height: 70px;
 }
 
@@ -59,13 +61,14 @@
     top: 63px;
     width: 254px;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .service2-descr {
     position: absolute;
     left: 53px;
     top: 144px;
-    width: 290px;
+    width: 302px;
     height: 80px;
 }
 
@@ -82,13 +85,14 @@
     top: 55px;
     width: 192px;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .service3-descr {
     position: absolute;
     left: 53px;
     top: 148px;
-    width: 222px;
+    width: 250px;
     height: 80px;
 }
 
@@ -105,6 +109,7 @@
     top: 59px;
     width: 299px;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .service4-descr {
