@@ -1,0 +1,22 @@
+.services-header {
+    margin-bottom: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.our-services {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+h3 {
+    text-align: center;
+}
