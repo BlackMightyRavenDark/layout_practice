@@ -5,37 +5,36 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.tint {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90.45deg, #ffffff 47.5%, rgba(255, 255, 255, 0) 98.8%);
-}
-
-/* Установка пластиковых окон */
-.title1-image {
-    position: absolute;
-    left: 53px;
-    top: 60px;
-}
-
-.service1-image {
+.service-image {
     width: 100%;
     height: 100%;
     border-radius: 3px;
 }
 
-.service1-title {
-    position: absolute;
-    left: 140px;
-    top: 66px;
-    width: 211px;
+.tint {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90.45deg, #ffffff 47.5%, rgba(255, 255, 255, 0) 98.8%);
+}
+
+.service-title {
     font-size: 24px;
     font-weight: 700;
 }
 
+/* Установка пластиковых окон */
+.title1-image {
+    left: 53px;
+    top: 60px;
+}
+
+.service1-title {
+    left: 140px;
+    top: 66px;
+    width: 211px;
+}
+
 .service1-descr {
-    position: absolute;
     left: 52px;
     top: 160px;
     width: 303px;
@@ -44,22 +43,17 @@
 
 /*Остекление балконов и лоджий*/
 .title2-image {
-    position: absolute;
     left: 53px;
     top: 48px;
 }
 
 .service2-title {
-    position: absolute;
     left: 149px;
     top: 63px;
     width: 254px;
-    font-size: 24px;
-    font-weight: 700;
 }
 
 .service2-descr {
-    position: absolute;
     left: 53px;
     top: 144px;
     width: 302px;
@@ -68,22 +62,17 @@
 
 /*Остекление коттеджей и дач*/
 .title3-image {
-    position: absolute;
     left: 48px;
     top: 47px;
 }
 
 .service3-title {
-    position: absolute;
     left: 138px;
     top: 55px;
     width: 192px;
-    font-size: 24px;
-    font-weight: 700;
 }
 
 .service3-descr {
-    position: absolute;
     left: 53px;
     top: 148px;
     width: 250px;
@@ -92,22 +81,17 @@
 
 /*Остекление корпоративных объектов*/
 .title4-image {
-    position: absolute;
     left: 53px;
     top: 46px;
 }
 
 .service4-title {
-    position: absolute;
     left: 146px;
     top: 59px;
     width: 299px;
-    font-size: 24px;
-    font-weight: 700;
 }
 
 .service4-descr {
-    position: absolute;
     left: 51px;
     top: 149px;
     width: 300px;
