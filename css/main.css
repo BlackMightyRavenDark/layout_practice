@@ -1,8 +1,17 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .services-header {
     margin-bottom: 48px;
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 700;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .our-services {
@@ -11,6 +20,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+    width: 1200px;
 }
 
 .absolute {
