@@ -11,19 +11,19 @@
     width: 1200px;
 }
 
-.menu {
+.header__menu-nav {
     display: flex;
     gap: 25px;
 }
 
-.buttons {
+.buttons-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 14px;
 }
 
-.button {
+.buttons-container__button {
     display: flex;
     align-items: center;
     gap: 13px;
@@ -34,14 +34,16 @@
     color: #ffffff;
 }
 
-.button1 {
-    padding: 8px 19px 8px 14px;
+.bkg-color-1 {
     background-color: #EF7F04;
 }
 
-.button2 {
-    padding: 8px 20px 8px 14px;
+.bkg-color-2 {
     background-color: #3B3A63;
+}
+
+.button-padding {
+    padding: 8px 20px 8px 14px;
 }
 
 .link {
