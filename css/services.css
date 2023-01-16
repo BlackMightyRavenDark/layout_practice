@@ -1,7 +1,54 @@
-.services-list__item {
+.services-list__item-wrapper {
+    display: flex;
+}
+
+.service-item {
     position: relative;
     width: 595px;
     height: 268px;
+}
+
+.background-1 {
+    background: linear-gradient(90.45deg, #ffffff 47.5%, rgba(255, 255, 255, 0) 98.8%), url("./../images/service1.png");
+}
+
+.background-2 {
+    background: linear-gradient(90.45deg, #ffffff 47.5%, rgba(255, 255, 255, 0) 98.8%), url("./../images/service2.png");
+}
+
+.background-3 {
+    background: linear-gradient(90.45deg, #ffffff 47.5%, rgba(255, 255, 255, 0) 98.8%), url("./../images/service3.png");
+}
+
+.background-4 {
+    background: linear-gradient(90.45deg, #ffffff 47.5%, rgba(255, 255, 255, 0) 98.8%), url("./../images/service4.png");
+}
+
+.service-item__caption {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin: 50px 0px 0px 50px;
+}
+
+.service-item__title {
+    width: 220px;
+    margin-left: 25px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.width-2 {
+    width: 260px;
+}
+
+.width-4 {
+    width: 300px;
+}
+
+.service-item__description {
+    width: 316px;
+    margin: 30px 0px 0px 50px;
 }
 
 .services-list__item-image {

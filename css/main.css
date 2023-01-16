@@ -8,7 +8,7 @@
     font-weight: 700;
 }
 
-.services-container {
+.services-wrapper {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
@@ -21,10 +21,6 @@
     flex-wrap: wrap;
     gap: 10px;
     width: 1200px;
-}
-
-.absolute {
-    position: absolute;
 }
 
 h3 {
