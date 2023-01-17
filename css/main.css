@@ -2,8 +2,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.services-header {
-    margin-bottom: 48px;
+.section-header {
+    margin-top: 65px;
+    margin-bottom: 40px;
     font-size: 24px;
     font-weight: 700;
 }

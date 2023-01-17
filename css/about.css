@@ -1,0 +1,20 @@
+.header-about-menu-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header-about__menu-nav {
+    gap: 50px;
+}
+
+.btn-active {
+    padding: 10px 20px;
+    font-weight: 700;
+    color: white;
+    background: #EF7F04;
+}
+
+section > div > nav > button {
+    border: none;
+    background-color: white;
+}
