@@ -1,20 +1,15 @@
-.body {
+* {
     font-family: 'Roboto', sans-serif;
 }
 
-.services-header {
-    margin-bottom: 48px;
+.section-header {
+    margin-top: 65px;
+    margin-bottom: 40px;
     font-size: 24px;
     font-weight: 700;
 }
 
-.services-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-}
-
-.our-services {
+.services-list {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -23,10 +18,15 @@
     width: 1200px;
 }
 
-.absolute {
-    position: absolute;
-}
-
 h3 {
     text-align: center;
+}
+
+.centering-container {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-wrapper {
+    width: 1200px;
 }

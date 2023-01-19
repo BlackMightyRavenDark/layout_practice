@@ -1,0 +1,68 @@
+.header-about-menu-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header-about__menu-nav {
+    gap: 50px;
+}
+
+.btn-active {
+    padding: 10px 20px;
+    font-weight: 700;
+    color: white;
+    background: #EF7F04;
+}
+
+section > div > nav > button {
+    border: none;
+    background-color: white;
+}
+
+.about-content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.about-content-wrapper__about-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 461px;
+    margin-top: 25px;
+}
+
+.about-content__info {
+    width: 605px;
+}
+
+.about-content__logo {
+    width: 200px;
+    height: auto;
+    padding: 46px 0px 0px 50px;
+}
+
+.about-content__text {
+    width: 305px;
+    padding: 61px 0px 0px 248px;
+}
+
+.about-content__picture {
+    width: 595px;
+    height: 100%;
+    background: url(./../images/about.png);
+    background-repeat: no-repeat;
+}
+
+.about__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 12px 30px;
+    margin-bottom: 87px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    color: white;
+}
