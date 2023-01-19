@@ -1,0 +1,12 @@
+.winhouse-container {
+    display: flex;
+    position: relative;
+    width: 1920px;
+    height: 582px;
+    overflow: hidden;
+    background: #323248;
+}
+
+.winhouse-container__background-image {
+    opacity: 0.3;
+}

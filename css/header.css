@@ -1,6 +1,7 @@
 .header {
     align-items: center;
     gap: 30px;
+    margin: 18px 0px;
 }
 
 .header__menu-nav {
