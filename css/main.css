@@ -9,12 +9,6 @@
     font-weight: 700;
 }
 
-.services-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-}
-
 .services-list {
     display: flex;
     justify-content: center;
@@ -35,17 +29,4 @@ h3 {
 
 .centered-wrapper {
     width: 1200px;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    padding: 12px 30px;
-    margin-bottom: 87px;
-    border: none;
-    border-radius: 3px;
-    font-weight: 700;
-    color: white;
 }

@@ -53,3 +53,16 @@ section > div > nav > button {
     background: url(./../images/about.png);
     background-repeat: no-repeat;
 }
+
+.about__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 12px 30px;
+    margin-bottom: 87px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    color: white;
+}

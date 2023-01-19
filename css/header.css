@@ -1,14 +1,6 @@
-.header-container {
-    display: flex;
-    justify-content: center;
-}
-
 .header {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 30px;
-    width: 1200px;
 }
 
 .header__menu-nav {
