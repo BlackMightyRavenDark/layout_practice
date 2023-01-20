@@ -10,3 +10,56 @@
 .winhouse-container__background-image {
     opacity: 0.3;
 }
+
+.winhouse-container__winhouse-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 582px;
+    z-index: 1;
+}
+
+/*block-info*/
+.winhouse__block-info {
+    width: 618px;
+    height: 288px;
+    color: white;
+}
+
+.block-info__caption {
+    width: 450px;
+}
+
+.block-info__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #EF7F04;
+}
+
+.block-info__description {
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+
+.block-info__advantage-list {
+    display: flex;
+    gap: 38px;
+}
+
+.block-info__advantage-item {
+    width: 180px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.advantage-item__image {
+    margin-bottom: 16px;
+}
+
+.advantage-item__image_position {
+    position: relative;
+    left: -19px;
+}
