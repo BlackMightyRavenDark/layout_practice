@@ -80,6 +80,8 @@
 }
 
 .winhouse__form > label {
+    position: absolute;
+    margin: 0px 30px 0px 35px;
     font-size: 12px;
 }
 
@@ -93,21 +95,47 @@
     height: 40px;
     margin-bottom: 15px;
     border: none;
+    border-radius: 3px;
     background-color: #E2E2E2;
 }
 
 .form__button-submit {
     display: block;
     padding: 20px 40px;
-    margin: 24px auto 0px auto;
+    margin: 64px auto 0px auto;
     border: none;
+    border-radius: 3px;
     color: white;
 }
 
 .form__image-ruler {
     position: absolute;
     left: -88px;
-    top: 378px;
+    top: 345px;
+}
+
+.form__checkbox {
+    display: none;
+}
+
+.winhouse__form label::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -36px;
+    top: 4px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    background-color: #E2E2E2;
+}
+
+.winhouse__form input:checked + label::after {
+    content: url("./../images/winhouse/checked.png");
+    position: absolute;
+    left: -34px;
+    top: 0px;
 }
 
 .form__input::placeholder {
