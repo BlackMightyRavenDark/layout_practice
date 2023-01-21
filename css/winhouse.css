@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 75px;
     width: 1920px;
     height: 582px;
     z-index: 1;
@@ -62,4 +63,55 @@
 .advantage-item__image_position {
     position: relative;
     left: -19px;
+}
+
+/*form*/
+.winhouse__form {
+    position: relative;
+    width: 428px;
+    padding: 0px 40px 66px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.winhouse__form > h3 {
+    padding: 43px 0px 27px 0px;
+}
+
+.winhouse__form > label {
+    font-size: 12px;
+}
+
+.winhouse__form > label > span {
+    color: #4B67AF;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #E2E2E2;
+}
+
+.form__button-submit {
+    display: block;
+    padding: 20px 40px;
+    margin: 24px auto 0px auto;
+    border: none;
+    color: white;
+}
+
+.form__image-ruler {
+    position: absolute;
+    left: -88px;
+    top: 378px;
+}
+
+.form__input::placeholder {
+    padding-left: 16px;
+    font-size: 14px;
+    color: #424268;
 }
