@@ -1,6 +1,12 @@
 .header {
     align-items: center;
     gap: 30px;
+    margin: 18px 0px;
+}
+
+.header__logo-wrapper {
+    display: flex;
+    gap: 44px;
 }
 
 .header__menu-nav {
@@ -41,4 +47,21 @@
 .link {
     color: #000000;
     text-decoration: none;
+}
+
+@media screen and (max-width: 993px) {
+    .header {
+        justify-content: space-between;
+        margin: 10px 56px;
+    }
+
+    .header__menu-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .header__image-burger {
+        display: none;
+    }
 }

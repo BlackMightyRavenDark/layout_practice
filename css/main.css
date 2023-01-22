@@ -27,6 +27,14 @@ h3 {
     justify-content: center;
 }
 
-.centered-wrapper {
-    width: 1200px;
+@media screen and (max-width: 993px) {
+    .centered-wrapper {
+        width: 992px;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .centered-wrapper {
+        width: 1200px;
+    }
 }

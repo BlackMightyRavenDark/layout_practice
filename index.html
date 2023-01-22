@@ -2,17 +2,19 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
+
         <title>
             Макет
         </title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/winhouse.css">
         <link rel="stylesheet" href="./css/services.css">
         <link rel="stylesheet" href="./css/about.css">
         <link rel="stylesheet" href="./css/aboutCards.css">
@@ -22,8 +24,9 @@
         <header>
             <div class="centering-container">
                 <div class="centered-wrapper centering-container header">
-                    <div>
-                        <img src="./images/logo.svg" alt="logo.svg">
+                    <div class="header__logo-wrapper">
+                        <img src="./images/burger.svg" alt="burger.svg" class="header__image-burger">
+                        <img src="./images/logo.svg" alt="logo.svg" class="header__image-logo">
                     </div>
 
                     <nav>
@@ -57,12 +60,18 @@
                     <div class="buttons-container">
                         <button class="buttons-container__button button-padding bkg-color-1">
                             <img src="./images/img1.svg" alt="img1.svg">
-                            <span>Заявка на замер</span>
+
+                            <span>
+                                Заявка на замер
+                            </span>
                         </button>
 
                         <button class="buttons-container__button button-padding bkg-color-2">
                             <img src="./images/img2.svg" alt="img2.svg">
-                            <span>Заказать расчёт</span>
+
+                            <span>
+                                Заказать расчёт
+                            </span>
                         </button>
                     </div>
                 </div>
@@ -70,14 +79,80 @@
         </header>
 
         <main>
+            <section>
+                <div class="winhouse-container">
+                    <div class="winhouse__block-info">
+                        <div class="block-info__caption">
+                            <div class="block-info__title">
+                                Окна Хаус -
+                            </div>
+
+                            <div class="block-info__description">
+                                Профессиональный подход к остеклению
+                            </div>
+                        </div>
+
+                        <div class="block-info__advantage-list">
+                            <div class="block-info__advantage-item">
+                                <img src="./images/about/pricing.svg" alt="pricing.svg" class="advantage-item__image advantage-item__image_image-position">
+
+                                <div>
+                                    Современные окна и балконные конструкции по доступным ценам
+                                </div>
+                            </div>
+
+                            <div class="block-info__advantage-item">
+                                <img src="./images/winhouse/img2.svg" alt="img2.svg" class="advantage-item__image">
+
+                                <div>
+                                    Квалифицированный подход к решению задач любой сложности
+                                </div>
+                            </div>
+
+                            <div class="block-info__advantage-item">
+                                <img src="./images/winhouse/img3.svg" alt="img3.svg" class="advantage-item__image">
+
+                                <div>
+                                    Гарантия высочайшего качества нашей продукции
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="winhouse__form">
+                        <h3>
+                            Вызвать замерщика на дом
+                        </h3>
+
+                        <input type="text" class="form__input" placeholder="Представьтесь, пожалуйста">
+                        <input type="tel" class="form__input" placeholder="Номер телефона">
+                        <input type="email" class="form__input" placeholder="E-mail">
+
+                        <input type="checkbox" id="checkbox" class="form__checkbox" checked>
+
+                        <label for="checkbox">
+                            Согласен на обработку персональных данных в соответствии с <span>политикой конфиденциальности</span>
+                        </label>
+
+                        <button type="submit" class="form__button-submit bkg-color-1">
+                            Отправить заявку
+                        </button>
+
+                        <img src="./images/winhouse/ruler.png" alt="ruler.png" class="form__image-ruler">
+                    </form>
+                </div>
+            </section>
+
             <div class="centering-container">
                 <div class="centered-wrapper">
                     <section>
                         <div class="section-header">
-                            <h3>Наши услуги</h3>
+                            <h3>
+                                Наши услуги
+                            </h3>
                         </div>
 
-                        <div class="services-list">
+                        <div class="services-list centered-wrapper">
                             <section>
                                 <div class="services-list__item-wrapper">
                                     <div class="service-item background-1">
@@ -154,15 +229,28 @@
 
                     <section>
                         <div class="section-header">
-                            <h3>О компании</h3>
+                            <h3>
+                                О компании
+                            </h3>
                         </div>
 
                         <div class="header-about-menu-wrapper">
                             <nav class="header__menu-nav header-about__menu-nav">
-                                <button class="btn-active">Описание</button>
-                                <button>Как мы работаем</button>
-                                <button>Отзывы</button>
-                                <button>Сертификаты</button>
+                                <button class="btn-active">
+                                    Описание
+                                </button>
+
+                                <button>
+                                    Как мы работаем
+                                </button>
+
+                                <button>
+                                    Отзывы
+                                </button>
+
+                                <button>
+                                    Сертификаты
+                                </button>
                             </nav>
                         </div>
 

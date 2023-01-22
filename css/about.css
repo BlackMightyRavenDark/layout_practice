@@ -5,6 +5,8 @@
 
 .header-about__menu-nav {
     gap: 50px;
+    font-size: 18px;
+    color: #2F2F51;
 }
 
 .btn-active {
@@ -39,7 +41,7 @@ section > div > nav > button {
 .about-content__logo {
     width: 200px;
     height: auto;
-    padding: 46px 0px 0px 50px;
+    padding: 46px 0px 0px 28px;
 }
 
 .about-content__text {
@@ -52,6 +54,7 @@ section > div > nav > button {
     height: 100%;
     background: url(./../images/about.png);
     background-repeat: no-repeat;
+    background-position: -70px;
 }
 
 .about__button {
@@ -65,4 +68,27 @@ section > div > nav > button {
     border-radius: 3px;
     font-weight: 700;
     color: white;
+}
+
+@media screen and (max-width: 993px) {
+    .header-about__menu-nav {
+        display: flex;
+    }
+
+    .about-content-wrapper__about-content {
+        width: 880px;
+    }
+
+    .about-content__info {
+        width: 443px;
+    }
+
+    .about-content__text {
+        width: 277px;
+        padding: 61px 0px 0px 104px;
+    }
+
+    .about-content__picture {
+        width: 447px;
+    }
 }

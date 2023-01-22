@@ -1,0 +1,160 @@
+.winhouse-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    width: 1920px;
+    height: 564px;
+    background: url("./../images/winhouse/background_full.png")
+}
+
+/*block-info*/
+.winhouse__block-info {
+    width: 618px;
+    height: 288px;
+    color: white;
+}
+
+.block-info__caption {
+    width: 450px;
+}
+
+.block-info__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #EF7F04;
+}
+
+.block-info__description {
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+
+.block-info__advantage-list {
+    display: flex;
+    gap: 38px;
+}
+
+.block-info__advantage-item {
+    width: 180px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.advantage-item__image {
+    height: 79px;
+    margin-bottom: 16px;
+}
+
+.advantage-item__image_image-position {
+    position: relative;
+    left: -19px;
+}
+
+/*form*/
+.winhouse__form {
+    position: relative;
+    width: 428px;
+    padding: 0px 40px 66px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.winhouse__form > h3 {
+    padding: 43px 0px 27px 0px;
+}
+
+.winhouse__form > label {
+    position: absolute;
+    margin: 0px 30px 0px 35px;
+    font-size: 12px;
+}
+
+.winhouse__form > label > span {
+    color: #4B67AF;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #E2E2E2;
+}
+
+.form__button-submit {
+    display: block;
+    padding: 20px 40px;
+    margin: 64px auto 0px auto;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.form__image-ruler {
+    position: absolute;
+    left: -88px;
+    top: 345px;
+}
+
+.form__checkbox {
+    display: none;
+}
+
+.winhouse__form label::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -36px;
+    top: 4px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    background-color: #E2E2E2;
+}
+
+.winhouse__form input:checked + label::after {
+    content: url("./../images/winhouse/checked.png");
+    position: absolute;
+    left: -34px;
+    top: 0px;
+}
+
+.form__input::placeholder {
+    padding-left: 16px;
+    font-size: 14px;
+    color: #424268;
+}
+
+@media screen and (max-width: 993px) {
+    .winhouse-container {
+        justify-content: flex-start;
+        width: 992px;
+        height: 562px;
+        background: url("./../images/winhouse/background_small.png");
+        background-repeat: no-repeat;
+    }
+
+    .winhouse__block-info {
+        margin-left: 77px;
+    }
+
+    .winhouse__form {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .winhouse-container {
+        width: 1920px;
+    }
+
+    .winhouse__form {
+        display: block;
+    }
+}
