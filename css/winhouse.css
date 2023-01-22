@@ -130,3 +130,31 @@
     font-size: 14px;
     color: #424268;
 }
+
+@media screen and (max-width: 993px) {
+    .winhouse-container {
+        justify-content: flex-start;
+        width: 992px;
+        height: 562px;
+        background: url("./../images/winhouse/background_small.png");
+        background-repeat: no-repeat;
+    }
+
+    .winhouse__block-info {
+        margin-left: 77px;
+    }
+
+    .winhouse__form {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .winhouse-container {
+        width: 1920px;
+    }
+
+    .winhouse__form {
+        display: block;
+    }
+}
