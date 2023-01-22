@@ -1,25 +1,11 @@
 .winhouse-container {
     display: flex;
-    position: relative;
-    width: 1920px;
-    height: 582px;
-    overflow: hidden;
-    background: #323248;
-}
-
-.winhouse-container__background-image {
-    opacity: 0.3;
-}
-
-.winhouse-container__winhouse-overlay {
-    position: absolute;
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 75px;
     width: 1920px;
-    height: 582px;
-    z-index: 1;
+    height: 564px;
+    background: url("./../images/winhouse/background_full.png")
 }
 
 /*block-info*/
@@ -57,10 +43,11 @@
 }
 
 .advantage-item__image {
+    height: 79px;
     margin-bottom: 16px;
 }
 
-.advantage-item__image_position {
+.advantage-item__image_image-position {
     position: relative;
     left: -19px;
 }
