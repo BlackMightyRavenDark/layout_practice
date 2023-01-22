@@ -49,14 +49,10 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 993px) {
     .header {
         justify-content: space-between;
         margin: 10px 56px;
-    }
-
-    .header__image-logo {
-        display: none;
     }
 
     .header__menu-nav {
@@ -64,7 +60,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 993px) {
     .header__image-burger {
         display: none;
     }
