@@ -1,0 +1,31 @@
+.portfolio-wrapper {
+    width: 1200px;
+}
+
+.portfolio__images-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 47px 0px 70px 0px;
+}
+
+.portfolio__image {
+    width: 215px;
+    height: 215px;
+}
+
+.portfolio__image-1 {
+    background: url("./../images/portfolio/portfolio_1.png");
+}
+
+.portfolio__image-2 {
+    background: url("./../images/portfolio/portfolio_2.jpg");
+}
+
+.portfolio__image-3 {
+    background: url("./../images/portfolio/portfolio_3.png");
+}
+
+.portfolio__image-4 {
+    background: url("./../images/portfolio/portfolio_4.png");
+}

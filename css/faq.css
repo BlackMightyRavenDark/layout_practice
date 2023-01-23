@@ -1,0 +1,43 @@
+.faq {
+    padding: 40px 100px 60px 100px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+}
+
+.faq__title {
+    margin-bottom: 36px;
+    font-size: 24px;
+}
+
+.faq > details > p {
+    padding-top: 20px;
+}
+
+details {
+    position: relative;
+    margin: 14px 0px;
+    padding: 40px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #2F2F51;
+    background-color: white;
+}
+
+details:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    color: #EF7F04;
+}
+
+summary::after {
+    content: url("./../images/arrow.svg");
+    position: absolute;
+    right: 30px;
+}
+
+details[open] > summary::after {
+    transform: rotateX(180deg);
+}
