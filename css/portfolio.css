@@ -1,5 +1,5 @@
 .portfolio-wrapper {
-    width: 1200px;
+    width: 100%;
 }
 
 .portfolio__images-wrapper {
@@ -28,4 +28,10 @@
 
 .portfolio__image-4 {
     background: url("./../images/portfolio/portfolio_4.png");
+}
+
+@media screen and (max-width: 993px) {
+    .portfolio__image-4 {
+        display: none;
+    }
 }
