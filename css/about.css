@@ -52,7 +52,7 @@ section > div > nav > button {
 .about-content__picture {
     width: 595px;
     height: 100%;
-    background: url(./../images/about.png);
+    background: url("./../images/about.png");
     background-repeat: no-repeat;
     background-position: -70px;
 }
