@@ -1,5 +1,7 @@
 .faq {
+    width: 100%;
     padding: 0px 100px 63px 100px;
+    box-sizing: border-box;
     text-align: center;
     border-radius: 7px;
     color: white;
@@ -47,4 +49,11 @@ summary::after {
 
 details[open] > summary::after {
     transform: rotateX(180deg);
+}
+
+@media screen and (max-width: 993px) {
+    .faq {
+        width: 880px;
+        padding: 0px 40px 63px 40px;
+    }
 }
