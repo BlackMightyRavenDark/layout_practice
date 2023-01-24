@@ -27,6 +27,7 @@ details {
     position: relative;
     width: 100%;
     padding: 40px 20px;
+    box-sizing: border-box;
     border-radius: 3px;
     font-size: 18px;
     font-weight: 700;
