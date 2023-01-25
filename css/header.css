@@ -63,6 +63,10 @@
     border-radius: 10px;
 }
 
+.header__image-burger {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1000px) {
     .header {
         justify-content: space-between;
