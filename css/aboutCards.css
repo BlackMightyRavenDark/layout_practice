@@ -24,7 +24,7 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1000px) {
     .cards-about-list {
         row-gap: 60px;
         width: 880px;

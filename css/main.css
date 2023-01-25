@@ -2,6 +2,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    background-color: #F2F2F2;
+}
+
 .section-header {
     margin-top: 65px;
     margin-bottom: 40px;
@@ -27,14 +31,12 @@ h3 {
     justify-content: center;
 }
 
-@media screen and (max-width: 993px) {
-    .centered-wrapper {
-        width: 992px;
-    }
+.centered-wrapper {
+    width: 1200px;
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (max-width: 1000px) {
     .centered-wrapper {
-        width: 1200px;
+        width: 880px;
     }
 }

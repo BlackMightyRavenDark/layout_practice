@@ -54,6 +54,7 @@
 
 /*form*/
 .winhouse__form {
+    display: block;
     position: relative;
     width: 428px;
     padding: 0px 40px 66px 40px;
@@ -105,6 +106,15 @@
     display: none;
 }
 
+.winhouse__form > label:hover {
+    cursor: pointer;
+}
+
+.form__button-submit:hover {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 .winhouse__form label::before {
     content: '';
     display: inline-block;
@@ -131,7 +141,7 @@
     color: #424268;
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1000px) {
     .winhouse-container {
         justify-content: flex-start;
         width: 992px;
@@ -146,15 +156,5 @@
 
     .winhouse__form {
         display: none;
-    }
-}
-
-@media screen and (min-width: 993px) {
-    .winhouse-container {
-        width: 1920px;
-    }
-
-    .winhouse__form {
-        display: block;
     }
 }

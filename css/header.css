@@ -9,6 +9,10 @@
     gap: 44px;
 }
 
+.header__image-burger {
+    display: none;
+}
+
 .header__menu-nav {
     display: flex;
     gap: 25px;
@@ -49,19 +53,31 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 993px) {
+.link:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.buttons-container__button:hover {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.header__image-burger {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
     .header {
         justify-content: space-between;
         margin: 10px 56px;
     }
 
-    .header__menu-nav {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 993px) {
     .header__image-burger {
+        display: inline;
+    }
+
+    .header__menu-nav {
         display: none;
     }
 }
