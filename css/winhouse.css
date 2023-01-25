@@ -106,6 +106,15 @@
     display: none;
 }
 
+.winhouse__form > label:hover {
+    cursor: pointer;
+}
+
+.form__button-submit:hover {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 .winhouse__form label::before {
     content: '';
     display: inline-block;
