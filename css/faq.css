@@ -54,7 +54,7 @@ details[open] > summary::after {
     transform: rotateX(180deg);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .faq {
         width: 880px;
         padding: 0px 40px 63px 40px;

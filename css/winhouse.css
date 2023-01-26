@@ -3,9 +3,8 @@
     justify-content: center;
     align-items: center;
     gap: 75px;
-    width: 1920px;
     height: 564px;
-    background: url("./../images/winhouse/background_full.png")
+    background: url("./../images/winhouse/background_full.png");
 }
 
 /*block-info*/
@@ -98,8 +97,13 @@
 
 .form__image-ruler {
     position: absolute;
+    width: 534px;
+    height: 98px;
     left: -88px;
-    top: 345px;
+    bottom: -14px;
+    background: url("./../images/winhouse/ruler.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .form__checkbox {
@@ -141,12 +145,10 @@
     color: #424268;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .winhouse-container {
         justify-content: flex-start;
-        width: 992px;
         height: 562px;
-        background: url("./../images/winhouse/background_small.png");
         background-repeat: no-repeat;
     }
 
@@ -156,5 +158,10 @@
 
     .winhouse__form {
         display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    .winhouse-container {
+        background: url("./../images/winhouse/background_small.png");
     }
 }

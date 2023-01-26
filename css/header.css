@@ -1,7 +1,10 @@
 .header {
     align-items: center;
     gap: 30px;
-    margin: 18px 0px;
+    width: 100%;
+    padding: 18px 0px;
+    margin: 0px auto;
+    background-color: white;
 }
 
 .header__logo-wrapper {
@@ -67,10 +70,9 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .header {
-        justify-content: space-between;
-        margin: 10px 56px;
+        justify-content: space-around;
     }
 
     .header__image-burger {
