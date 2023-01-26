@@ -97,8 +97,13 @@
 
 .form__image-ruler {
     position: absolute;
+    width: 534px;
+    height: 98px;
     left: -88px;
-    top: 345px;
+    bottom: -14px;
+    background: url("./../images/winhouse/ruler.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .form__checkbox {
