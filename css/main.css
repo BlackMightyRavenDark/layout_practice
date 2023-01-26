@@ -3,7 +3,7 @@
 }
 
 main {
-    background-color: #F2F2F2;
+    width: 100vw;
 }
 
 .section-header {
@@ -29,13 +29,19 @@ h3 {
 .centering-container {
     display: flex;
     justify-content: center;
+    width: 100vw;
+    background-color: #f2f2f2;
 }
 
 .centered-wrapper {
     width: 1200px;
 }
 
-@media screen and (max-width: 1000px) {
+.bkg-color-white {
+    background-color: white;
+}
+
+@media screen and (max-width: 1200px) {
     .centered-wrapper {
         width: 880px;
     }
