@@ -16,13 +16,14 @@
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    color: white;
 }
 
-.footer__logo-gap {
+.footer__links {
+    display: flex;
     gap: 23px;
+    font-size: 14px;
 }
 
-.footer > .footer__content-wrapper > .footer__logo-wrapper > p {
-    font-size: 14px;
+.color-white {
+    color: white;
 }
