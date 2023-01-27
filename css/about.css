@@ -56,7 +56,7 @@ section > div > nav > button {
     align-items: center;
     gap: 24px;
     padding: 12px 30px;
-    margin-bottom: 87px;
+    margin: 87px auto;
     border: none;
     border-radius: 3px;
     font-weight: 700;
@@ -77,7 +77,7 @@ section > div > nav > button:hover {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .header-about__menu-nav {
         display: flex;
     }
